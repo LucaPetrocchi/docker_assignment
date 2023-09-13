@@ -1,0 +1,9 @@
+version: '3'
+services:
+  prac_lucap:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "5005:5005"
+    restart: always
